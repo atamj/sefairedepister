@@ -78,6 +78,9 @@ $table_prefix = 'sd_';
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
 define( 'WP_DEBUG', false );
+define( 'AUTOMATIC_UPDATER_DISABLED', true );
+define( 'WP_AUTO_UPDATE_CORE', false );
+define('WP_POST_REVISIONS', 2 );
 
 /* That's all, stop editing! Happy publishing. */
 
