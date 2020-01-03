@@ -12,5 +12,7 @@ body{
 }
 .elementor-accordion-item{
     border-top: 3px solid #909396!important;
+}
+#accordion1 .elementor-accordion-item:last-child{
     border-bottom: 3px solid #909396!important;
 }
