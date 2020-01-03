@@ -1,5 +1,5 @@
 
-$( "document" ).ready( function () {
+jQuery( "document" ).ready( function ($) {
     console.log($('.elementor-tab-title'));
 
     $('.elementor-tab-title').removeClass('elementor-active')
