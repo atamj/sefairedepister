@@ -8,7 +8,10 @@ jQuery( "document" ).ready( function ($) {
         $(this).removeClass('elementor-active')
     })
 
-    document.querySelector('.elementor-tab-title').forEach(elm => elm.classList.remove('elementor-active'));
+    let tabTitle = document.querySelector('.elementor-tab-title')
+
+    tabTitle.forEach(elm => elm.classList.remove('elementor-active'));
+
 
 
 
