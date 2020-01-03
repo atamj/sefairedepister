@@ -8,14 +8,19 @@ jQuery( "document" ).ready( function ($) {
         $(this).removeClass('elementor-active')
     })
 */
-    let tabTitle = document.querySelectorAll('h3.elementor-tab-title')
-    console.log(tabTitle)
+    /*let tabTitle = document.querySelectorAll('h3.elementor-tab-title')
+    console.log(tabTitle)*/
     /*for (let i = 0; i < tabTitle.length(); i++ ){
         tabTitle[i].remove('elementor-active');
     }*/
-    tabTitle.forEach(function(item){
+    /*tabTitle.forEach(function(item){
         console.log(item.classList)
         item.classList.remove('elementor-active')
+    })*/
+    let tabtitle = document.getElementsByClassName('elementor-tab-title')
+
+    tabtitle.forEach(function (item) {
+        item.classList.remove(1)
     })
 
 
