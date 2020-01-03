@@ -18,9 +18,9 @@ body{
 }
 .elementor-accordion-icon-closed svg{
     color: #ffffff!important;
-    max-height: 30px;
+    min-width: 15px;
 }
 .elementor-accordion-icon-opened svg{
     color: #FF0000!important;
-    min-width: 15px;
+    max-height: 30px;
 }
