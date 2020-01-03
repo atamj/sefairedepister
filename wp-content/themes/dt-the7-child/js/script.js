@@ -1,1 +1,3 @@
-alert('buddy')
+( function( $ ){
+    alert('buddy')
+})( jQuery );
