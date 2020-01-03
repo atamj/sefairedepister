@@ -18,7 +18,7 @@ jQuery( "document" ).ready( function ($) {
         item.classList.remove('elementor-active')
     })*/
     let tabTitle = document.getElementsByClassName('elementor-tab-title')
-    console.log(tabtitle)
+    console.log(tabTitle)
     for (let i = 0; i < tabTitle.length; i++ ){
         tabTitle[i].classList.remove('elementor-active');
     }
