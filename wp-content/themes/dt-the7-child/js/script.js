@@ -1,6 +1,6 @@
 
 jQuery( "document" ).ready( function ($) {
-    console.log($('.elementor-tab-title'));
+    /*console.log($('.elementor-tab-title'));*/
 
     /*$('.elementor-tab-title')[0].removeClass('elementor-active')*/
 
@@ -9,10 +9,10 @@ jQuery( "document" ).ready( function ($) {
     })
 */
     let tabTitle = document.querySelectorAll('.elementor-tab-title')
-
-    for (let i = 0; i < tabTitle.length(); i++ ){
+    console.log(tabTitle)
+    /*for (let i = 0; i < tabTitle.length(); i++ ){
         tabTitle[i].remove('elementor-active');
-    }
+    }*/
 
 
 
