@@ -13,6 +13,7 @@ jQuery( "document" ).ready( function ($) {
     /*for (let i = 0; i < tabTitle.length(); i++ ){
         tabTitle[i].remove('elementor-active');
     }*/
+    tabTitle.forEach(elm => elm.classList.remove('elementor-active'))
 
 
 
