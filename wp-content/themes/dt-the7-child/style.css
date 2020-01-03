@@ -11,6 +11,6 @@ body{
     padding: 13px;
 }
 .elementor-accordion-item{
-    border-top: 3px solid #909396;
-    border-bottom: 3px solid #909396;
+    border-top: 3px solid #909396!important;
+    border-bottom: 3px solid #909396!important;
 }
