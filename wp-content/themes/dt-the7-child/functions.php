@@ -32,8 +32,8 @@ function add_script(){
     the7_register_script('script', plugins_url('js/script.js', __FILE__), ['jquery'], '1.2.0', true);
     wp_register_script('script', plugins_url('js/script.js', __FILE__), ['jquery'], '1.2.0', true);
     wp_enqueue_script('script');
-    wp_enqueue_script('script',get_template_directory_uri().'/js/script.js', ['jquery'], '1.2.0', true);
-    var_dump(get_template_directory_uri().'/js/script.js');
+    wp_enqueue_script('script',get_template_directory_uri().'-child/js/script.js', ['jquery'], '1.2.0', true);
+    var_dump(get_template_directory_uri().'-child/js/script.js');
 
 }
 add_action('init', ('add_script'));
