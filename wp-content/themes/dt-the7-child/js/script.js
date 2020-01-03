@@ -14,7 +14,7 @@ jQuery( "document" ).ready( function ($) {
         tabTitle[i].remove('elementor-active');
     }*/
     tabTitle.forEach(function(item){
-        console.log(item)
+        console.log(item.classList)
         item.classList.remove('elementor-active')
     })
 
