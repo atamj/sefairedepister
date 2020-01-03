@@ -29,8 +29,10 @@ function add_widget_header(){
 add_action('widgets_init', 'add_widget_header');
 
 function add_script(){
-    the7_register_script('script', plugins_url('js/script.js', __FILE__), ['jquery'], '1.2.0', true);
+    /*the7_register_script('script', plugins_url('js/script.js', __FILE__), ['jquery'], '1.2.0', true);
+    wp_register_script('script', plugins_url('js/script.js', __FILE__), ['jquery'], '1.2.0', true);
+    wp_enqueue_script('script');*/
     wp_enqueue_script('script', plugins_url('js/script.js', __FILE__), ['jquery'], '1.2.0', true);
 
 }
-add_action('wp_enqueue_scripts', ('add-script'));
+add_action('init', ('add-script'));
