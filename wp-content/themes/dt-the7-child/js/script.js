@@ -13,6 +13,8 @@ jQuery( "document" ).ready( function ($) {
     $('.elementor-tab-title').removeClass('elementor-active')
 
 })(jQuery);*/
+/*
 function $(param){
     jQuery(param);
 }
+*/
