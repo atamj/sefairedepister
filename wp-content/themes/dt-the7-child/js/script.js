@@ -17,11 +17,14 @@ jQuery( "document" ).ready( function ($) {
         console.log(item.classList)
         item.classList.remove('elementor-active')
     })*/
-    let tabtitle = document.getElementsByClassName('elementor-tab-title')
-
-    tabtitle.forEach(function (item) {
+    let tabTitle = document.getElementsByClassName('elementor-tab-title')
+    console.log(tabtitle)
+    for (let i = 0; i < tabTitle.length; i++ ){
+        tabTitle[i].classList.remove('elementor-active');
+    }
+   /* tabTitle.forEach(function (item) {
         item.classList.remove(1)
-    })
+    })*/
 
 
 
