@@ -1,6 +1,3 @@
-function $(param){
-   jQuery(param);
-}
 
 $( "document" ).ready( function () {
     console.log($('.elementor-tab-title'));
@@ -16,3 +13,6 @@ $( "document" ).ready( function () {
     $('.elementor-tab-title').removeClass('elementor-active')
 
 })(jQuery);*/
+function $(param){
+    jQuery(param);
+}
