@@ -8,7 +8,7 @@ jQuery( "document" ).ready( function ($) {
         $(this).removeClass('elementor-active')
     })
 */
-    let tabTitle = document.querySelectorAll('.elementor-tab-title')
+    let tabTitle = document.querySelectorAll('h3.elementor-tab-title')
     console.log(tabTitle)
     /*for (let i = 0; i < tabTitle.length(); i++ ){
         tabTitle[i].remove('elementor-active');
