@@ -4,14 +4,15 @@ jQuery( "document" ).ready( function ($) {
 
     /*$('.elementor-tab-title')[0].removeClass('elementor-active')*/
 
-    $('.elementor-tab-title').each(function () {
+   /* $('.elementor-tab-title').each(function () {
         $(this).removeClass('elementor-active')
     })
-
+*/
     let tabTitle = document.querySelector('.elementor-tab-title')
 
-    tabTitle.forEach(elm => elm.classList.remove('elementor-active'));
-
+    for (let i = 0; i < tabTitle.length(); i++ ){
+        tabTitle[i].remove('elementor-active');
+    }
 
 
 
