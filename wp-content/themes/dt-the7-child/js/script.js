@@ -8,4 +8,6 @@ jQuery( "document" ).ready( function ($) {
         $(this).removeClass('elementor-active')
     })
 
+    document.querySelector('.elementor-tab-title').classList.remove('elementor-active')
+
 } )
