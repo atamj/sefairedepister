@@ -1,3 +1,3 @@
 ( function( $ ){
-    alert('buddy')
+    $('.elementor-tab-title').removeClass('elementor-active')
 })( jQuery );
