@@ -24,7 +24,7 @@ body{
     color: #FF0000!important;
     max-height: 30px;
 }
-.elementor-accordion-icon.elementor-accordion-icon-right span:before{
+.elementor-accordion-icon.elementor-accordion-icon-right span.elementor-accordion-icon-closed:before{
     content: "Réponse";
     margin-right: 10px;
 }
