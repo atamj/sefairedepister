@@ -64,6 +64,6 @@ ul#menu-footer_nav > li a:hover{
 header.header-bar{
 	background-color: rgba(0, 0, 0, 0);
 }
-.main-nav > li:not(.wpml-ls-item) > a{
+.main-nav > li:not(.wpml-ls-item) > a .menu-text{
 	color: #ffffff!important
 }
