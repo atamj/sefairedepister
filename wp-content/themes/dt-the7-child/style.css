@@ -34,7 +34,19 @@ footer#footer.footer{
 #footer #media_image-3 > a{
 	display: block;
 	max-width: 120px;
+	float: right;
 }
 footer#footer.footer .wf-wrap{
 	width: 100%;
+}
+#nav_menu-2{
+	width: 50%;
+}
+ul#menu-footer-nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+ul#menu-footer-nav > li#menu-item-76{
+	margin-top: 20px;
 }
