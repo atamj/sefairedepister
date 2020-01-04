@@ -67,3 +67,6 @@ header.header-bar{
 .main-nav > li:not(.wpml-ls-item) > a .menu-text{
 	color: #ffffff!important
 }
+.header-bar {
+    max-width: 100% !important;
+}
