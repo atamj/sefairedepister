@@ -36,7 +36,7 @@ function add_script_style(){
     
     wp_enqueue_script('script',get_template_directory_uri().'-child/js/script.js', ['jquery'], '1.0', true);
 
-    wp_enqueue_script('carousel',get_template_directory_uri().'-child/js/carousel.js', ['jquery'], '2.0', true);
+    // wp_enqueue_script('carousel',get_template_directory_uri().'-child/js/carousel.js', ['jquery'], '2.0', true);
     wp_enqueue_script('quiz',get_template_directory_uri().'-child/js/quiz.js', ['jquery'], '2.0', true);
     wp_enqueue_script('site',get_template_directory_uri().'-child/js/site.js', ['jquery'], '2.0', true);
 
