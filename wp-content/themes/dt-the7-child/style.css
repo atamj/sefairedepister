@@ -73,3 +73,9 @@ header.header-bar{
 .footer .menu .current-menu-item > a{
 	color: #ffffff;
 }
+a, a:hover {
+    color: #e32d29;
+}
+a:hover{
+	text-decoration: underline;
+}
