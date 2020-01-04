@@ -58,7 +58,7 @@ ul#menu-footer_nav > li a:hover{
 .header-space.sticky-space-off{
 	display: none;
 }
-.masthead.inline-header.center.full-height.small-mobile-menu-icon.dt-parent-menu-clickable.show-device-logo.show-mobile-logo.fixed-masthead.sticky-off{
+.masthead.inline-header.center.full-height.small-mobile-menu-icon.dt-parent-menu-clickable.show-device-logo.show-mobile-logo.fixed-masthead.sticky-off, .masthead.inline-header.center.full-height.small-mobile-menu-icon.dt-parent-menu-clickable.show-device-logo.show-mobile-logo.fixed-masthead.sticky-on{
 	background-color: rgba(0,0,0,0) !important;
 }
 header.header-bar{
