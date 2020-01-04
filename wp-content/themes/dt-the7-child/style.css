@@ -50,3 +50,8 @@ ul#menu-footer_nav{
 ul#menu-footer_nav > li#menu-item-76{
 	margin-top: 20px;
 }
+ul#menu-footer_nav > li a:hover{
+	color: #ffffff;
+	text-decoration: none;
+	border-bottom: 2px solid #ffffff;
+}
