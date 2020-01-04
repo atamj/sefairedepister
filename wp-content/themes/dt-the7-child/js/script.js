@@ -6,7 +6,6 @@ jQuery( "document" ).ready( function ($) {
 
     jQuery('h3.elementor-tab-title').each(function (e) {
         $(this).removeClass('elementor-active')
-        e.removeClass('elementor-active')
     })
     /*let tabTitle = document.querySelectorAll('h3.elementor-tab-title')
     console.log(tabTitle)*/
