@@ -4,8 +4,9 @@ jQuery( "document" ).ready( function ($) {
 
     /*$('.elementor-tab-title')[0].removeClass('elementor-active')*/
 
-    jQuery('.elementor-tab-title').each(function () {
+    jQuery('h3.elementor-tab-title').each(function (e) {
         $(this).removeClass('elementor-active')
+        e.removeClass('elementor-active')
     })
     /*let tabTitle = document.querySelectorAll('h3.elementor-tab-title')
     console.log(tabTitle)*/
