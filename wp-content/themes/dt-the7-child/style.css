@@ -28,3 +28,13 @@ body{
 	display: none;
 }
 #main.sidebar-none.sidebar-divider-vertical{padding:0;}
+footer#footer.footer{
+	background-color: #000000;
+}
+#footer #media_image-3 > a{
+	display: block;
+	max-width: 120px;
+}
+footer#footer.footer .wf-wrap{
+	width: 100%;
+}
