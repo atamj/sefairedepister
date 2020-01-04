@@ -70,3 +70,6 @@ header.header-bar{
 .header-bar {
     max-width: 100% !important;
 }
+.footer .menu .current-menu-item > a{
+	color: #ffffff;
+}
