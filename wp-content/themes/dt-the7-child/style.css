@@ -42,7 +42,7 @@ footer#footer.footer .wf-wrap{
 #nav_menu-2{
 	width: 50%;
 }
-ul#menu-footer-nav{
+ul#menu-footer_nav{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
