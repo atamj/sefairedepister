@@ -82,3 +82,6 @@ a:hover{
 h4,h5,h6{
 	color: #afb2b5;
 }
+.btn{
+	border: 2px solid #ffffff;
+}
