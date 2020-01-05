@@ -7,6 +7,10 @@ jQuery( "document" ).ready( function ($) {
 	});
 	$(".btn[data-toggle]").click(function(e) {
 		e.preventDefault()
+
+		$(".btn[data-toggle]").removeClass('red')
+		$(this).addClass('red')
+		
 		$(".yes, .no").hide()
 		let data = $(this).data('toggle')
 
