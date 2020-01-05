@@ -10,7 +10,7 @@ jQuery( "document" ).ready( function ($) {
 		let data = $(this).data('toggle')
 		console.log("data= " + data)
 		let div_to_toggle = $(this).parent('div').children(data)
-		console.log(div_to_toggle)
+		console.log($(this).closest('div'))
 
 		div_to_toggle.toggle()
 
