@@ -82,6 +82,14 @@ a:hover{
 h4,h5,h6{
 	color: #afb2b5;
 }
+h2{
+	font-family: Montserrat;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-decoration: underline;
+	line-height: 47px;
+	font-size: 34px;
+}
 .btn{
 	border: 2px solid #ffffff!important;
 }
