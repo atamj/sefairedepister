@@ -1,8 +1,20 @@
 
 jQuery( "document" ).ready( function ($) {
 
-	$("#next").click(function(event) {
+	$("#next, .next").click(function(e) {
+		e.preventDefault()
 		$(".black .sa_owl_theme .owl-nav .owl-next").click();
+	});
+	$(".btn[data-toggle]").click(function(e) {
+		e.preventDefault()
+		let data = $(this).data('toggle')
+		$(this).parent('div').children(data).toggle()
+		
+		// if ($(this).data('toggle') == "yes") 
+		// {
+		// 	$(this).parent('div').children('.yes').toggle()
+		// }
+		
 	});
 
 } )
