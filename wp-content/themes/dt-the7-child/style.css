@@ -10,6 +10,9 @@ Template: dt-the7
 body{
     padding: 13px;
 }
+h1,h2,h3,h4,h5,h6{
+	font-family: Montserrat;
+}
 .elementor-accordion-item{
     border-top: 3px solid #909396!important;
 }
@@ -83,7 +86,6 @@ h4,h5,h6{
 	color: #afb2b5;
 }
 h2{
-	font-family: Montserrat;
 	font-weight: 500;
 	text-transform: uppercase;
 	text-decoration: underline;
@@ -96,4 +98,7 @@ h2{
 }
 .red{
 	background-color: #e32d29!important;
+}
+.white{
+	color: #ffffff;
 }
