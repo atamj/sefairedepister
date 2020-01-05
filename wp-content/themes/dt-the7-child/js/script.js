@@ -7,6 +7,7 @@ jQuery( "document" ).ready( function ($) {
 	});
 	$(".btn[data-toggle]").click(function(e) {
 		e.preventDefault()
+		$(".yes, .no").toggle()
 		let data = $(this).data('toggle')
 
 		let div_to_toggle = $(this).closest('div').children(data)
