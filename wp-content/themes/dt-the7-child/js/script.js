@@ -8,9 +8,8 @@ jQuery( "document" ).ready( function ($) {
 	$(".btn[data-toggle]").click(function(e) {
 		e.preventDefault()
 		let data = $(this).data('toggle')
-		console.log("data= " + data)
+
 		let div_to_toggle = $(this).closest('div').children(data)
-		console.log($(this).closest('div'))
 
 		div_to_toggle.toggle()
 
