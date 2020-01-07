@@ -8,9 +8,9 @@ License: This WordPress theme is comprised of two parts: (1) The PHP code and in
 Template: dt-the7
 */
 
-body{
+/*body{
     padding: 13px;
-}
+}*/
 h1,h2,h3,h4,h5,h6{
 	font-family: Montserrat;
 }
