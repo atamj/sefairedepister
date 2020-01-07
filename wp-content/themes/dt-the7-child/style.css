@@ -62,8 +62,9 @@ ul#menu-footer_nav > li a:hover{
 .header-space.sticky-space-off{
 	display: none;
 }
-.masthead.inline-header.center.full-height.small-mobile-menu-icon.dt-parent-menu-clickable.show-device-logo.show-mobile-logo.fixed-masthead.sticky-off, .masthead.inline-header.center.full-height.small-mobile-menu-icon.dt-parent-menu-clickable.show-device-logo.show-mobile-logo.fixed-masthead.sticky-on{
-	background-color: rgba(0,0,0,0) !important;
+.masthead.inline-header.center.full-height.small-mobile-menu-icon.dt-parent-menu-clickable.show-device-logo.show-mobile-logo.fixed-masthead.sticky-off, .masthead.inline-header.center.full-height.small-mobile-menu-icon.dt-parent-menu-clickable.show-device-logo.show-mobile-logo.fixed-masthead{
+	background: linear-gradient(to bottom, rgb(0, 0, 0) 0%,rgba(255,255,255,0) 100%)!important;
+	min-height: 120px!important;	
 }
 header.header-bar{
 	background-color: rgba(0, 0, 0, 0);
@@ -103,8 +104,4 @@ h2{
 }
 .white{
 	color: #ffffff;
-}
-.masthead.inline-header.center.full-height.shadow-decoration.small-mobile-menu-icon.dt-parent-menu-clickable.show-device-logo.show-mobile-logo.fixed-masthead{
-	background: linear-gradient(to bottom, rgb(0, 0, 0) 0%,rgba(255,255,255,0) 100%) !important;
-	min-height: 120px;	
 }
