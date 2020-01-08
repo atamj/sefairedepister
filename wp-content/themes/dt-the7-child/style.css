@@ -109,7 +109,7 @@ h2{
 footer.footer .widget {
     padding: 0 53px;
 }
-#slide-btn {
+#slide-btn > .elementor-container {
     position: absolute;
     top: 710px;
     right: 0px;
