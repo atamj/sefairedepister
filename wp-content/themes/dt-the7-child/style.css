@@ -126,5 +126,5 @@ footer.footer .widget {
 	display: none!important;
 }
 .owl-item.active{
-	width: 25%;
+	width: 25%!important;
 }
