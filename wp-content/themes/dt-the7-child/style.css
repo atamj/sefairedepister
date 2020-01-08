@@ -116,9 +116,3 @@ footer.footer .widget {
     z-index: 30;
     text-align: center;
 }
-#page #slide-btn a.button:not(.edd-submit).btn:hover{
-	background-color:rgba(0,0,0,0);
-	border: 2px solid #e32d29!important;
-	color: #e32d29;
-
-}
