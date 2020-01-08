@@ -4,6 +4,7 @@ jQuery( "document" ).ready( function ($) {
 	$("#next, .next").click(function(e) {
 		e.preventDefault()
 		$(".black .sa_owl_theme .owl-nav .owl-next").click();
+		$(".ls-gui-element.ls-nav-next").click();
 	});
 	$(".btn[data-toggle]").click(function(e) {
 		e.preventDefault()
