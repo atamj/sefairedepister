@@ -109,3 +109,10 @@ h2{
 footer.footer .widget {
     padding: 0 53px;
 }
+#slide-btn {
+    position: absolute;
+    top: 710px;
+    right: -213px;
+    z-index: 30;
+    text-align: center;
+}
