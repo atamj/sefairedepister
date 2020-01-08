@@ -115,4 +115,10 @@ footer.footer .widget {
     right: -213px;
     z-index: 30;
     text-align: center;
+    .btn{
+    	&:hover{
+			background-color:rgba(0,0,0,0);
+			border: 2px solid #ffffff!important;
+    	}
+    }
 }
