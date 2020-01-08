@@ -112,7 +112,9 @@ footer.footer .widget {
 #slide-btn {
     position: absolute;
     top: 710px;
-    right: -213px;
+    right: 0px;
     z-index: 30;
     text-align: center;
+    width: 504px!important;
+    left: auto!important;
 }
