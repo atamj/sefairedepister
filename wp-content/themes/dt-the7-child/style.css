@@ -122,3 +122,6 @@ footer.footer .widget {
     width: 504px!important;
     left: auto!important;
 }
+.none{
+	display: none!important;
+}
