@@ -109,7 +109,7 @@ h2{
 footer.footer .widget {
     padding: 0 53px;
 }
-#slide-btn{
+/*#slide-btn{
 	height: 1655px;
 	top: -1655px
 }
@@ -121,7 +121,7 @@ footer.footer .widget {
     text-align: center;
     width: 504px!important;
     left: auto!important;
-}
+}*/
 .none{
 	display: none!important;
 }
