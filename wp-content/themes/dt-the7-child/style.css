@@ -52,7 +52,7 @@ ul#menu-footer_nav{
 	align-items: center;
 }
 ul#menu-footer_nav > li#menu-item-76{
-	margin-top: 20px;
+	margin-top: 10px;
 }
 ul#menu-footer_nav > li{
 	margin: 0 16px;
@@ -139,4 +139,7 @@ footer.footer .widget {
 .elementor-accordion h3.elementor-tab-title > a:hover{
 	color: #ffffff;
 	text-decoration: none;
+}
+#footer #nav_menu-2{
+	width: 60%;
 }
