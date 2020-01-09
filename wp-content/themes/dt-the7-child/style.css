@@ -130,5 +130,6 @@ footer.footer .widget {
 }
 .ls-wrapper > a.ls-layer-link:hover{
 	background-color: #e32d29!important;
-	border-color:#ffffff!important;
+	border-color: #ffffff!important;
+	color: #ffffff!important;
 }
