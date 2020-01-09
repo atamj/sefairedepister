@@ -19,7 +19,7 @@ jQuery( "document" ).ready( function ($) {
 		div_to_toggle.toggle()
 	});
 
-	$("div.elementor-active").hide()
-	$(".elementor-active").removeClass('elementor-active')
+	jQuery("div.elementor-active").hide()
+	jQuery(".elementor-active").removeClass('elementor-active')
 
 } )
