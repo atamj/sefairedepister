@@ -165,5 +165,7 @@ footer.footer .widget {
 	}
 	#footer #media_image-3 > a{
 		float: none;
+		display: flex;
+		justify-content: center;
 	}
 }
