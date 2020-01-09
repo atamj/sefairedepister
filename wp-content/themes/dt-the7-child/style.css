@@ -150,7 +150,7 @@ footer.footer .widget {
 	flex-wrap: wrap;
 }
 @media only screen and (max-width: 1438px){
-	.wf-container-footer .wf-container{
+	ul#menu-footer_nav{
 		flex-direction: column;
 		justify-content: center;
 		
