@@ -128,3 +128,7 @@ footer.footer .widget {
 .owl-item{
 	width: 25%!important;
 }
+.ls-layer-link:hover{
+	background-color: #e32d29!important;
+	border-color:#ffffff!important;
+}
