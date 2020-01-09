@@ -3,7 +3,6 @@ jQuery( "document" ).ready( function ($) {
 
 	$("#next, .next").click(function(e) {
 		e.preventDefault()
-		// $(".black .sa_owl_theme .owl-nav .owl-next").click();
 		$(".ls-gui-element.ls-nav-next").click();
 	});
 	$(".btn[data-toggle]").click(function(e) {
@@ -18,8 +17,9 @@ jQuery( "document" ).ready( function ($) {
 		let div_to_toggle = $(this).closest('div').children(data)
 
 		div_to_toggle.toggle()
-
-		
 	});
+
+	$("div.elementor-active").hide()
+	$(".elementor-active").removeClass('elementor-active')
 
 } )
