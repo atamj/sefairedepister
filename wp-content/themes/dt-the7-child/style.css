@@ -163,9 +163,11 @@ footer.footer .widget {
 		align-items: center;
 		text-align: center;
 	}
-	#footer #media_image-3 > a{
-		float: none;
+	#footer #media_image-3{
 		display: flex;
 		justify-content: center;
+	}
+	#footer #media_image-3 > a{
+		float: none;
 	}
 }
