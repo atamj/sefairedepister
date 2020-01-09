@@ -156,3 +156,9 @@ footer.footer .widget {
 
 	}	
 }
+@media only screen and (max-width: 778px){
+	.wf-container-footer .wf-container{
+		flex-direction: column;
+		justify-content: center;
+	}
+}
