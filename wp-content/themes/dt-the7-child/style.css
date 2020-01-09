@@ -133,3 +133,8 @@ footer.footer .widget {
 	border-color: #ffffff!important;
 	color: #ffffff!important;
 }*/
+
+.elementor-accordion h3.elementor-tab-title > a:hover{
+	color: #ffffff;
+	text-decoration: none;
+}
