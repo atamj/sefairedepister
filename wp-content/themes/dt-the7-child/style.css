@@ -160,5 +160,10 @@ footer.footer .widget {
 	.wf-container-footer .wf-container{
 		flex-direction: column;
 		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+	#footer #media_image-3 > a{
+		float: none;
 	}
 }
