@@ -143,3 +143,8 @@ footer.footer .widget {
 #footer #nav_menu-2{
 	width: 60%;
 }
+.wf-container-footer .wf-container{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
