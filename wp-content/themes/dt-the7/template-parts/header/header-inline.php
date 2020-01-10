@@ -22,6 +22,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		<?php presscore_get_template_part( 'theme', 'header/primary-menu' ); ?>
 
 		<?php presscore_render_header_elements( 'near_menu_right' ); ?>
+		<p>test</p>
 
 	</header>
 
