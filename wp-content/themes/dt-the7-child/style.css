@@ -14,7 +14,7 @@ Template: dt-the7
 html,body,h1,h2,h3,h4,h5,h6,body.page,body .wf-container > *, .main-nav > li > a .menu-text{
 	font-family: Montserrat;
 }
-body.page .ls-layer{
+body.page p.ls-layer{
 	font-family: Montserrat!important;	
 }
 
