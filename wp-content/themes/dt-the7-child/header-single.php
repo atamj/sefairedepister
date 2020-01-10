@@ -14,39 +14,47 @@ defined( 'ABSPATH' ) || exit;
 <html <?php language_attributes(); ?> class="no-js">
 <!--<![endif]-->
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics --><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-49592669-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-49592669-1');
+	</script>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<?php if ( presscore_responsive() ) : ?>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
 	<?php endif ?>
 	<?php presscore_theme_color_meta(); ?>
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
-	 <link href="//db.onlinewebfonts.com/c/aeacf66714a281f7d10f7523d374d820?family=Moon+Flower" rel="stylesheet" type="text/css"/> 
+	<link href="//db.onlinewebfonts.com/c/aeacf66714a281f7d10f7523d374d820?family=Moon+Flower" rel="stylesheet" type="text/css"/> 
 	<?php
 	presscore_js_resize_event_hack();
 	wp_head();
 	?>
 </head>
 <body <?php body_class(); ?>>
-<?php
-do_action( 'presscore_body_top' );
+	<?php
+	do_action( 'presscore_body_top' );
 
-$config = presscore_config();
+	$config = presscore_config();
 
-$page_class = '';
-if ( 'boxed' === $config->get( 'template.layout' ) ) {
-	$page_class = 'class="boxed"';
-}
-?>
+	$page_class = '';
+	if ( 'boxed' === $config->get( 'template.layout' ) ) {
+		$page_class = 'class="boxed"';
+	}
+	?>
 
-<div id="page" <?php echo $page_class; ?>>
-	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'the7mk2' ); ?></a>
-<?php
-if ( apply_filters( 'presscore_show_header', true ) ) {
-	presscore_get_template_part( 'theme', 'header/header', str_replace( '_', '-', $config->get( 'header.layout' ) ) );
-	presscore_get_template_part( 'theme', 'header/mobile-header' );
-}
+	<div id="page" <?php echo $page_class; ?>>
+		<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'the7mk2' ); ?></a>
+		<?php
+		if ( apply_filters( 'presscore_show_header', true ) ) {
+			presscore_get_template_part( 'theme', 'header/header', str_replace( '_', '-', $config->get( 'header.layout' ) ) );
+			presscore_get_template_part( 'theme', 'header/mobile-header' );
+		}
 
-if ( presscore_is_content_visible() && $config->get( 'template.footer.background.slideout_mode' ) ) {
-	echo '<div class="page-inner">';
-}
-?>
+		if ( presscore_is_content_visible() && $config->get( 'template.footer.background.slideout_mode' ) ) {
+			echo '<div class="page-inner">';
+		}
+		?>
