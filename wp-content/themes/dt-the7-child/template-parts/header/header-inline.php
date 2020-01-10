@@ -23,6 +23,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 		<?php presscore_render_header_elements( 'near_menu_right' ); ?>
 		<?php dynamic_sidebar( "header_widget" ); ?>
+		<p>tzet</p>
 
 	</header>
 
