@@ -11,7 +11,7 @@ Template: dt-the7
 /*body{
     padding: 13px;
 }*/
-html,body,h1,h2,h3,h4,h5,h6,body.page,body .wf-container > *, .main-nav > li > a .menu-text{
+html,body,h1,h2,h3,h4,h5,h6,body.page,body .wf-container > *,body .wf-container > .ls-layer, .main-nav > li > a .menu-text{
 	font-family: Montserrat;
 }
 
