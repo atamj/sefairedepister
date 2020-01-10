@@ -11,9 +11,10 @@ Template: dt-the7
 /*body{
     padding: 13px;
 }*/
-body,h1,h2,h3,h4,h5,h6{
+html,body,h1,h2,h3,h4,h5,h6,body.page, .wf-container > *, .main-nav > li > a .menu-text{
 	font-family: Montserrat;
 }
+
 .elementor-accordion-item{
     border-top: 3px solid #909396!important;
 }
@@ -148,9 +149,7 @@ footer.footer .widget {
 	display: flex;
 	justify-content: space-between;
 }
-.main-nav > li > a .menu-text{
-	font-family: Montserrat;
-}
+
 @media only screen and (max-width: 1438px){
 	ul#menu-footer_nav{
 		flex-direction: column;
