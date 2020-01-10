@@ -185,3 +185,6 @@ footer.footer .widget {
 		float: none;
 	}
 }
+.masthead,.mobile-header-space{
+	position: absolute;
+}
