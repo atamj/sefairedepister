@@ -188,3 +188,6 @@ footer.footer .widget {
 .masthead,.mobile-header-space{
 	position: absolute;
 }
+.masthead{
+	text-transform: uppercase;
+}
