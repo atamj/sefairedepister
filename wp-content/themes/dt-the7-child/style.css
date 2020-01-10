@@ -17,6 +17,15 @@ html,body,h1,h2,h3,h4,h5,h6,body.page,body .wf-container > *, .main-nav > li > a
 body.page p.ls-layer{
 	font-family: Montserrat!important;	
 }
+#footer > *{
+	font-family: Montserrat!important;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 1;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+	text-transform: uppercase;
+}
 
 .elementor-accordion-item{
     border-top: 3px solid #909396!important;
