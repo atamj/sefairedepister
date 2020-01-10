@@ -49,6 +49,7 @@ if ( ! presscore_get_header_elements_list( 'top_line_right' ) ) {
 			echo '</div>';
 		}
 		?>
+		<p>test</p>
 
 	</header>
 
