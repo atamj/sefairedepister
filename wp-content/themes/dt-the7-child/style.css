@@ -11,15 +11,21 @@ Template: dt-the7
 /*body{
     padding: 13px;
 }*/
+@font-face {
+font-family: 'Moon Flower';
+font-style: normal;
+font-weight: normal;
+src: local('Moon Flower'), url('moon_flower.woff') format('woff');
+}
 html,body,h2,h3,h4,h5,h6,body.page,body .wf-container > *, .main-nav > li > a .menu-text{
 	font-family: Montserrat;
 }
 body.page p.ls-layer{
 	font-family: Montserrat!important;	
 }
-/*body.page h1.ls-layer{
+body.page h1.ls-layer{
 	font-family: "Moon Flower"!important;	
-}*/
+}
 #footer.footer .widget *{
 	font-family: Montserrat!important;
 	font-size: 12px;
