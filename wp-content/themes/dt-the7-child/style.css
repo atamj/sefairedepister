@@ -68,18 +68,18 @@ footer#footer.footer .wf-wrap{
 #nav_menu-2{
 	width: 50%;
 }
-ul#menu-footer_nav{
+ul#menu-footer_nav, ul#menu-footer_nav-anglais, ul#menu-footer_nav-espagnol{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
-ul#menu-footer_nav > li#menu-item-76{
+ul#menu-footer_nav > li#menu-item-76, ul#menu-footer_nav-anglais > li#menu-item-229, ul#menu-footer_nav-espagnol > li#menu-item-233{
 	margin-top: 10px;
 }
-ul#menu-footer_nav > li{
+ul#menu-footer_nav > li, ul#menu-footer_nav-anglais > li, ul#menu-footer_nav-espagnol > li{
 	margin: 0 16px;
 }
-ul#menu-footer_nav > li a:hover{
+ul#menu-footer_nav > li a:hover, ul#menu-footer_nav-anglais > li a:hover, ul#menu-footer_nav-espagnol > li a:hover{
 	color: #ffffff;
 	text-decoration: underline;
 }
@@ -172,7 +172,7 @@ footer.footer .widget {
 }
 
 @media only screen and (max-width: 1438px){
-	ul#menu-footer_nav{
+	ul#menu-footer_nav, ul#menu-footer_nav-anglais, ul#menu-footer_nav-espagnol{
 		flex-direction: column;
 		justify-content: center;
 		width: auto;
@@ -199,4 +199,7 @@ footer.footer .widget {
 }
 .masthead .main-nav > li > a .menu-text{
 	text-transform: uppercase;
+}
+#primary-menu .wpml-ls-item {
+    display: none !important;
 }
